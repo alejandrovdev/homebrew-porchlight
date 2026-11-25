@@ -2,8 +2,9 @@ class Porchlight < Formula
   desc "Keep Claude Code sessions ready on your Mac for the Claude mobile app"
   homepage "https://github.com/alejandrovdev/porchlight"
   url "https://github.com/alejandrovdev/porchlight.git",
-      tag:      "v0.1.4",
-      revision: "7ca3c156f1301e3fc12e8556d7e514ca5a38e7bf"
+      tag:      "v0.1.5",
+      revision: "c3f68572d319746fec1b869c7a90947fb497a7c1"
+  license "MIT"
   head "https://github.com/alejandrovdev/porchlight.git", branch: "main"
 
   depends_on :macos
