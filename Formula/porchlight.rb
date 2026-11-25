@@ -29,7 +29,7 @@ class Porchlight < Formula
       Set up once, then link each project from its folder:
         porchlight setup
         cd ~/path/to/project && porchlight init
-      Claude Code is installed separately, and a terminal app for the features that open tabs.
+      setup offers to install what is missing with Homebrew (Claude Code, git, tmux, Warp).
     EOS
   end
 
