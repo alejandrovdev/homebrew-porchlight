@@ -17,6 +17,22 @@ formula cannot depend on: `porchlight setup` offers to install it.
 Then set up this Mac and link a project, as porchlight's
 [quick start](https://github.com/alejandrovdev/porchlight#quick-start) shows.
 
+## Upgrade
+
+The service keeps running the old version until it restarts, so keep that version until
+then:
+
+```sh
+brew update
+HOMEBREW_NO_INSTALL_CLEANUP=1 brew upgrade alejandrovdev/porchlight/porchlight
+porchlight stop
+porchlight start
+brew cleanup porchlight
+```
+
+The sessions keep running. What each step does is in
+[Upgrade](https://github.com/alejandrovdev/porchlight/blob/main/docs/setup.md#upgrade).
+
 ## Uninstall
 
 Remove porchlight's background agents first, since they run the installed command:
